@@ -7,7 +7,7 @@ cd OpenCodeInterpreter/
 ls
 cd demo/
 ls
-export HF_TOKEN="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"
+export HF_TOKEN=""
 python3 chatbot.py --path "m-a-p/OpenCodeInterpreter-DS-6.7B"
 nvidia-smi
 ls
@@ -34,7 +34,7 @@ cd OpenCodeInterpreter/demo/
 python3 chatbot.py --path "m-a-p/OpenCodeInterpreter-DS-6.7B"  --input_prompt "import glob\nfile_name = glob.glob('./usr')\nwith open(file_name, 'r') as f:\n    print(f.read())\n"
 conda activate demo
 python3 chatbot.py --path "m-a-p/OpenCodeInterpreter-DS-6.7B"  --input_prompt "import glob\nfile_name = glob.glob('./usr')\nwith open(file_name, 'r') as f:\n    print(f.read())\n"
-export HF_TOKEN="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"
+export HF_TOKEN=""
 python3 chatbot.py --path "m-a-p/OpenCodeInterpreter-DS-6.7B"  --input_prompt "import glob\nfile_name = glob.glob('./usr')\nwith open(file_name, 'r') as f:\n    print(f.read())\n"
 cd ..
 cd usr
