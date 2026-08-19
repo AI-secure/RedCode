@@ -99,3 +99,9 @@ If you find our work helpful, please consider citing it as follows:
 ## 📖 Questions
 
 Please don't hesitate to reach out to us if you have any suggestions or need any help in reproducing the results. You can submit an issue or pull request, or send an email to either chengquanguo@uchicago.edu, xunliu.aq@gmail.com or chulinx2@illinois.edu. Thanks for your attention!
+
+## License
+
+The source code in this repository is licensed under the MIT License.
+
+The RedCode benchmark dataset under dataset/ is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0)
